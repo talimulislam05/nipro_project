@@ -1,0 +1,586 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    /* header section start  */
+    header {
+        padding: 0;
+    }
+    .nav_brand{
+        font-size: 23px;
+    }
+    .nav_link {
+        text-align: right;
+        padding: 4px 0;
+    }
+    .menu ul li a {
+        margin: 0;
+    }
+    .nav_icon {
+        display: inline-block;
+        width: 1.1em;
+        height: 1.1em;
+    }
+    /* slider start  */
+    .s_item {
+        margin: 70px 0 0;
+    }
+    .s_h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .s_p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 30px auto 40px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .cus_btn{
+        margin: 0 auto;
+    }
+    .align_c{
+        text-align: center;
+    }
+    /* feature start  */
+    .ser_item {
+        padding: 55px 0 10px;
+        margin: 60px auto 0;
+    }
+    .hi_p {
+        line-height: 24px;
+        padding: 0 8px;
+        text-align: justify;
+        margin-top: 25px !important;
+    }
+    .con_btn{
+        text-align: center;
+    }
+    /* about us section  */
+    .text_about {
+        margin: 20px auto 0;
+        text-align: center;
+        padding: 0 2px;
+    }
+    .about_img {
+        margin: 0 auto;
+    }
+    .com_bor {
+        margin-top: 10px;
+    }.about_p1 {
+        margin-top: 20px;
+    }
+    .about_p2 {
+        margin-top: 0px;
+    }
+    .c_pad {
+        margin-bottom: 40px;
+    }
+    /* portfolio section start  */
+    .portfolio_img img{
+        width: 93%;
+    }
+    .portfolio_img img {
+        margin-top: 22px;
+    }
+    /* portfolio section end  */
+
+    /* choose section  */
+    .ch_p {
+        margin-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .he_h1 {
+        font-size: 27px;
+    }
+    .align{
+        justify-content: center;
+    }
+    /* choose section  */
+
+    /* team section  */
+    .team{
+        background-position: left;
+        padding: 50px 0;
+    }
+    .port_pipe {
+        background-color: black !important;
+    }
+    .h1_black{
+        color: #0f0f0f !important;
+    }
+    .team_text {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .team_img {
+        margin: 25px auto 0;
+        width: 85%;
+    }
+    /* choosing section  */
+    .chose_best2 {
+        margin-bottom: 10px;
+    }
+    .s_price {
+        margin: 20px auto;
+        width: 85%;
+    }
+    .cta_btn {
+        padding: 10px 55px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .gap {
+        gap: 5px;
+    }
+    .s_priceh1 {
+        margin-bottom: 20px;
+    }
+    /* action section  */
+    .l_p {
+        font-size: 16px !important;
+        margin-bottom: 0;
+    }
+    .span_2 {
+        margin-left: 3px;
+    }
+    .act_btn {
+        padding: 5px 8px !important;
+        font-size: 12px !important;
+    }
+    /* testimony section  */
+    .test_pic {
+        width: 80%;
+    }
+    .test_text {
+        width: 100%;
+        text-align: justify;
+    }
+    .test_texth3 {
+        margin-bottom: 0;
+    }
+    .test_textp1 {
+        margin: 10px 0;
+    }
+    .test_textp2 {
+        margin-bottom: 5px;
+    }
+    .con_bor {
+        margin-top: 30px;
+    }
+    /* contact  */
+    .contact{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cen_item {
+        padding: 10px 10px !important;
+    }
+    .class_con {
+        width: 100%;
+    }
+    .cen_item {
+        padding: 10px 92px;
+    }
+    .contentsh1{
+    width: 180px;
+    height: 40px;
+    font-size: 30px;
+    }
+    .last_ul li a i {
+        font-size: 14px;
+    }
+    .last_text {
+        padding: 0;
+    }
+    .last_p {
+        padding: 0 22px;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header section start  */
+    .nav_brand{
+        font-size: 26px;
+    }
+    .nav_link {
+        text-align: right;
+        padding: 6px;
+    }
+    .menu ul li a {
+        margin: 0;
+    }
+    /* slider start  */
+    .s_item {
+        margin: 115px 0 0;
+    }
+    .s_h1 {
+        font-size: 40px;
+    }
+    .s_p{
+        font-size: 14px;
+        line-height: 27px;
+        margin: 40px 0 45px;
+        padding-right: 145px;
+    }
+    /* feature start  */
+    .ser_item {
+        padding: 55px 0 30px;
+        margin: 80px auto 0;
+        width: 80%;
+    }
+    .hi_p {
+        line-height: 27px;
+        padding: 0 10px;
+    }
+    /* about us section  */
+    .text_about {
+        margin: 30px auto 0;
+        text-align: center;
+        padding: 0;
+    }
+    .about_img {
+        margin: 0 auto;
+    }
+    /* portfolio section start  */
+    .port ul li a {
+        margin: 0 1px;
+    }
+    .portfolio_img img{
+        width: 90%;
+    }
+    /* portfolio section end  */
+    /* choose section start */
+    .margin {
+        margin: 40px auto 0;
+        /* width: 50%; */
+        text-align: center;
+    }
+    .ch_icon {
+        margin: 0px 10px 0 0 !important;
+    }
+    .ch_p {
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .align{
+        justify-content: center;
+    }
+    /* choose section end */
+    /* team section  */
+    .team{
+        background-position: left;
+        padding: 50px 0;
+    }
+    .port_pipe {
+        background-color: black !important;
+    }
+    .h1_black{
+        color: #0f0f0f !important;
+    }
+    .team_text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .team_img {
+        margin: 25px auto 0;
+        width: 80%;
+    }
+    /* choosing section  */
+    .chose_best2 {
+        margin-bottom: 25px;
+    }
+    .s_price {
+        margin-top: 20px;
+    }
+    .cta_btn {
+        padding: 8px 35px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .gap {
+        gap: 7px;
+    }
+    .s_priceh1 {
+        margin-bottom: 10px;
+    }
+    /* action section  */
+    .l_p {
+        font-size: 16px !important;
+        margin-bottom: 0;
+    }
+    .act_btn {
+        padding: 6px 10px !important;
+    }
+    /* testimony section  */
+    .test_pic {
+        width: 80%;
+    }
+    .test_text {
+        width: 100%;
+        text-align: justify;
+    }
+    .test_texth3 {
+        margin-bottom: 0;
+    }
+    .test_textp1 {
+        margin: 10px 0;
+    }
+    .test_textp2 {
+        margin-bottom: 5px;
+    }
+    .con_bor {
+        margin-top: 30px;
+    }
+    /* contact  */
+    .class_con {
+        width: 100%;
+    }
+    .cen_item {
+        padding: 10px 92px;
+    }
+    .contentsh1{
+    width: 180px;
+    height: 40px;
+    font-size: 30px;
+    }
+    .last_text {
+        margin: 30px 0 30px;
+        padding: 0;
+    }
+    .last_p {
+        margin: 30px 0;
+        padding: 0 25px;
+    }
+
+    
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header section start  */
+    .nav_link {
+        text-align: right;
+    }
+    .menu ul li a {
+        margin: 0;
+    }
+    /* slider start  */
+    .s_item {
+        margin: 150px 0 40px;
+    }
+    .s_h1 {
+        font-size: 46px;
+    }
+    .hi_p {
+        line-height: 28px;
+        margin-top: 30px !important;
+        padding: 0 20px;
+    }
+    /* feature start  */
+    .ser_item {
+        padding: 55px 0 30px;
+        margin: 80px auto 0;
+        width: 80%;
+    }
+    /* about us section  */
+    .text_about {
+        width: 90%;
+        margin: 30px auto 0;
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .about_img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* portfolio section start  */
+    .portfolio_img{
+        margin: 30px 10px 0 0;
+    }
+    .portfolio_img img{
+        width: 98%;
+    }
+    /* portfolio section end  */
+
+    /* choose section start */
+    .margin {
+        margin: 40px auto 0;
+        width: 50%;
+        text-align: center;
+    }
+    .ch_icon {
+        margin: 0px 10px 0 0 !important;
+    }
+    .ch_p {
+        margin-top: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+    }
+    /* choose section end */
+    .h1_black {
+        color: #0f0f0f !important;
+    }
+    /* team section  */
+    .team{
+    background-position: left;
+    padding: 50px 0;
+    }
+    .port_pipe {
+        background-color: black !important;
+    }
+    /* choosing section  */
+    .s_price {
+        margin-top: 25px;
+    }
+    /* testimony section  */
+    .test_pic {
+        width: 88%;
+    }
+    .test_texth3 {
+        margin-bottom: 0;
+    }
+    .test_textp1 {
+        margin: 10px 0;
+    }
+    .test_textp2 {
+        margin-bottom: 5px;
+    }
+    .con_bor {
+        margin-top: 30px;
+    }
+    /* contact  */
+    .class_con {
+        width: 100%;
+    }
+    .cen_item {
+        padding: 10px 92px;
+    }
+    /* footer  */
+    .control_la{
+        margin-top: 20px;
+    }
+    .last_text {
+        padding: 0;
+    }
+
+
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* header */
+    header{
+        padding: 7px 0px;
+    }
+    /* slider section start  */
+    .s_item {
+        margin: 150px 0 0px;
+    }
+    .s_h1 {
+        font-size: 46px;
+    }
+    .s_p{
+        line-height: 24px;
+    }
+    .ser_item {
+        padding: 55px 0px 30px;
+    }
+    .h1_black {
+        font-size: 35px;
+    }
+    /* service */
+    .hi_p{
+        padding: 0 5px;
+    }
+    .ser_p2 {
+        padding: 0 10px;
+        line-height: 25px;
+    }
+    /* about us section  */
+    .com_bor {
+        margin-top: 15px;
+    }
+    .text_about {
+        text-align: justify;
+        padding-right: 0;
+
+    }
+    .about_p1 {
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    .about_p2 {
+        margin-top: 0px;
+        line-height: 24px;
+    }
+    /* portfolio section start  */
+    .portfolio_img img {
+        margin: 30px 10px 0 0;
+        width: 100%;
+    }
+    /* portfolio section end  */
+    /* team section start  */
+    .taem{
+        padding: 60px 0;
+    }
+
+    /* choosing section start  */
+    .s_priceh1 {
+        font-size: 30px !important;
+    }
+    .s_priceh2 {
+        font-size: 24px !important;
+        margin-top: -33px;
+        width: 70px;
+        margin-bottom: 30px;
+    }
+    .gap {
+        gap: 12px;
+    }
+    .cta_btn {
+        padding: 10px 45px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    /* footer  */
+    .last_text {
+        padding: 0px 170px;
+    }
+    .last_ul li a i {
+        font-size: 26px;
+    }    
+    .control_la{
+        margin-top: 20px;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* slider start  */
+    .s_item {
+        margin: 150px 0 75px;
+    }
+    /* about us  */
+    .text_about {
+        text-align: justify;
+        padding-right: 0;
+
+    }
+    .about_p1 {
+        margin-top: 26px;
+    }
+    .about_p2 {
+        margin-top: 15px;
+    }
+    .com_bor {
+        margin-top: 15px;
+    }
+  }
+
+ /* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }
